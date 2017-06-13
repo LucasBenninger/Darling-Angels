@@ -2,9 +2,9 @@
  * fonts.scss)
  *
  * ------------------------------------------------------------------- */
- 
+
 /*
- * Libre Baskerville 
+ * Libre Baskerville
 ================================================================================ */
 @font-face {
   font-family: "librebaskerville-regular";
@@ -46,7 +46,7 @@
 ================================================================================ */
 @font-face {
   font-family: "Vincentia";
-  src: url("../fonts/Vincentia.otf") format("otf");
+  src: url("../fonts/Vincentia.otf") format("opentype");
   font-style: normal;
   font-weight: normal;
 }
