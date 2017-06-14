@@ -1284,7 +1284,7 @@ header .header-logo a {
   border: none;
   width: 87px;
   height: 67px;
-  background: url("../images/logo.png") no-repeat center;
+  /*background: url("../images/logo.png") no-repeat center;*/
   background-size: 57px 27px;
   font: 0/0 a;
   text-shadow: none;
