@@ -28,11 +28,61 @@ if($_POST) {
 
 
    // Set Message
-   $message .= "Email from: " . $name . "<br />";
-	$message .= "Email address: " . $email . "<br />";
-   $message .= "Message: <br />";
-   $message .= $contact_message;
-   $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
+  //  $message .= "Email from: " . $name . "<br />";
+	// $message .= "Email address: " . $email . "<br />";
+  //  $message .= "Message: <br />";
+  //  $message .= $contact_message;
+  //  $message .= "<br /> <hr/> <br /> Sent from the contact form on <a href='https://darlingangels.ca/'>darlingangels.ca</a> <br />";
+
+  $message .= "<!DOCTYPE html>
+  <html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Vincentia';
+        src: url('https://darlingangels.ca/fonts/Vincentia.otf') format('opentype');
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      h1{
+        font-family: 'Vincentia', sans-serif;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+      }
+      hr{
+         border: 0;
+         height: 1px;
+         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      }
+      section{
+        margin-left: auto;
+        padding-left: 10%;
+        margin-right: auto;
+        padding-right: 10%;
+      }
+      body{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Darling Angels Photography</h1>
+    </header>
+    <hr/>
+    <section>
+      <br/>
+      <span>$name</span> <br/>
+      <span>$email</span><br/><br/>
+      <span>$subject</span><br/><br/>
+      <span>$contact_message</span><br/>
+      <br/>
+    </section>
+    <hr/>
+    <footer>&copy; Copyright Darling Angels Photography 2017.</footer>
+  </body>
+  </html>";
 
    // Set From: header
    $from =  $name . " <" . $email . ">";
