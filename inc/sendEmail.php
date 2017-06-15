@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'benningerlucas@gmail.com';
+$siteOwnersEmail = 'info@darlingangels.ca';
 
 
 if($_POST) {
