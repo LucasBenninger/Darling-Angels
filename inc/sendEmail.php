@@ -73,9 +73,9 @@ if($_POST) {
     <hr/>
     <section>
       <br/>
-      <span>$name</span> <br/>
-      <span>$email</span><br/><br/>
-      <span>$subject</span><br/><br/>
+      <span>Name: $name</span> <br/>
+      <span>Email: $email</span><br/><br/>
+      <span>Subject: $subject</span><br/><br/>
       <span>$contact_message</span><br/>
       <br/>
     </section>
