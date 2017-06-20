@@ -96,7 +96,6 @@ nav ul li a:hover {
 }
 
 #home {
-  padding-top: 4em;
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   color: white;
@@ -106,7 +105,7 @@ nav ul li a:hover {
 
 .title{
   font-family: "Vincentia";
-  font-size: 6em;
+  font-size: 4em;
 }
 
 #projects {
