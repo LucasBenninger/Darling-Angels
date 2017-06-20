@@ -97,13 +97,17 @@ nav ul li a:hover {
 }
 
 #home {
-  background-image: url("../img/background.png");
+  padding-top: 1em;
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   color: white;
+  font-size: 3em;
+
 }
 
-#home p{
-  padding-left: 12em;
+.title{
+  font-family: "Vincentia";
+  font-size: 4em;
 }
 
 #projects {
