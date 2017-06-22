@@ -151,13 +151,6 @@ nav ul li a:hover {
   font-size: 4em;
 }
 
-#projects {
-  text-align: center;
-  min-height: 90vh;
-  display: inline-block;
-  overflow: visible;
-}
-
 
 /*Mobile Modifiers*/
 
