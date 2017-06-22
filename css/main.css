@@ -2,6 +2,22 @@ body {
   margin: 0;
 }
 
+#hamburger{
+  float: right;
+  top: 0;
+  right: 0;
+  position: fixed;
+  padding: 2em
+}
+
+#hamburger button{
+  font-size: 2em;
+  border: none;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
 nav {
   overflow: hidden;
   background-color: rgb(28, 28, 28);
