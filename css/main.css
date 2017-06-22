@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-#hamburger{
+#hamburger {
   float: right;
   top: 0;
   right: 0;
@@ -10,12 +10,21 @@ body {
   padding: 2em
 }
 
-#hamburger button{
+#hamburger button {
   font-size: 2em;
   border: none;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0);
   color: white;
+}
+
+#sideNavCross {
+  float: right;
+  right: 0;
+  font-size: 2em;
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 nav {
@@ -25,9 +34,10 @@ nav {
   top: 0;
   right: 0;
   height: 100vh;
+  text-align: center;
 }
 
-nav h1{
+nav h1 {
   color: white;
   font-family: "Vincentia";
   font-size: 2em;
@@ -168,9 +178,11 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-footer  {
+footer {
   background-color: rgb(39, 40, 43);
 }
+
+
 /*Mobile Modifiers*/
 
 @media screen and (max-width: 1000px) {}
