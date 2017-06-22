@@ -2,6 +2,22 @@ body {
   margin: 0;
 }
 
+#hamburger{
+  float: right;
+  top: 0;
+  right: 0;
+  position: fixed;
+  padding: 2em
+}
+
+#hamburger button{
+  font-size: 2em;
+  border: none;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
 nav {
   overflow: hidden;
   background-color: rgb(28, 28, 28);
@@ -135,6 +151,7 @@ nav ul li a:hover {
   font-size: 4em;
 }
 
+<<<<<<< HEAD
 #services {
   background-image: url("../images/services-bg.jpg");
   background-size: cover;
@@ -151,6 +168,8 @@ nav ul li a:hover {
   background-image: url("../images/contact-bg.jpg");
   background-size: cover;
 }
+=======
+>>>>>>> ce9ea5e3851bd9bfba1ddceb1aad73a97fccf9f0
 
 Footer  {
   background-color: rgb(39, 40, 43);
