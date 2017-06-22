@@ -7,14 +7,13 @@ body {
   top: 0;
   right: 0;
   position: fixed;
-  padding: 2em
+  padding: 4em
 }
 
 #hamburger button {
   font-size: 2em;
   border: none;
-  padding: 1em;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, .25);
   color: white;
 }
 
@@ -35,6 +34,7 @@ nav {
   right: 0;
   height: 100vh;
   text-align: center;
+  width: 18em;
 }
 
 nav h1 {
@@ -144,9 +144,10 @@ nav ul li a:hover {
 
 #name {
   text-transform: uppercase;
-  padding-top: 4em;
+  padding-top: 6em;
   padding-bottom: 0;
   margin-bottom: 0;
+  font-size: 1em;
 }
 
 #home h1 {
@@ -154,7 +155,7 @@ nav ul li a:hover {
   margin-right: 30%;
 }
 
-.title {
+#title {
   margin-top: 0;
   padding-top: 0;
   font-family: "Vincentia";
