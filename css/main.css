@@ -151,7 +151,29 @@ nav ul li a:hover {
   font-size: 4em;
 }
 
+<<<<<<< HEAD
+#services {
+  background-image: url("../images/services-bg.jpg");
+  background-size: cover;
+}
 
+#projects {
+  text-align: center;
+  min-height: 90vh;
+  display: inline-block;
+  overflow: visible;
+}
+
+#contact {
+  background-image: url("../images/contact-bg.jpg");
+  background-size: cover;
+}
+=======
+>>>>>>> ce9ea5e3851bd9bfba1ddceb1aad73a97fccf9f0
+
+Footer  {
+  background-color: rgb(39, 40, 43);
+}
 /*Mobile Modifiers*/
 
 @media screen and (max-width: 1000px) {}
