@@ -63,7 +63,7 @@ nav ul li a {
 
 section {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   text-align: center;
 }
@@ -162,23 +162,27 @@ nav ul li a:hover {
 }
 
 #services {
+  color: white;
   background-image: url("../images/services-bg.jpg");
   background-size: cover;
 }
 
 #projects {
   text-align: center;
-  min-height: 90vh;
+  min-height: 100vh;
   display: inline-block;
   overflow: visible;
 }
 
 #contact {
+  color: white;
   background-image: url("../images/contact-bg.jpg");
   background-size: cover;
 }
 
 footer {
+  color: white;
+  padding: 2em;
   background-color: rgb(39, 40, 43);
 }
 
