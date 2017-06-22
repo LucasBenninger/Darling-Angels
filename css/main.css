@@ -2,19 +2,30 @@ body {
   margin: 0;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav {
   overflow: hidden;
   background-color: rgb(28, 28, 28);
   position: fixed;
-  float: right;
   top: 0;
   right: 0;
+  height: 100vh;
 }
 
-nav ul li {}
+nav h1{
+  color: white;
+  font-family: "Vincentia";
+  font-size: 2em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0;
+}
 
 nav ul li a {
   display: block;
@@ -105,7 +116,7 @@ nav ul li a:hover {
   text-rendering: optimizeLegibility;
 }
 
-#name{
+#name {
   text-transform: uppercase;
   padding-top: 4em;
   padding-bottom: 0;
@@ -134,5 +145,4 @@ nav ul li a:hover {
 
 /*Mobile Modifiers*/
 
-@media screen and (max-width: 1000px) {
-}
+@media screen and (max-width: 1000px) {}
