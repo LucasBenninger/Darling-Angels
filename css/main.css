@@ -95,12 +95,15 @@ nav ul li a:hover {
 }
 
 #home {
-  padding-top: 4em;
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   color: white;
   font-size: 2em;
   font-family: "montserrat-bold";
+}
+
+#name{
+  padding-top: 4em;
 }
 
 #home h1 {
