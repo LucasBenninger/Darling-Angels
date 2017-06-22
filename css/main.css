@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-#hamburger{
+#hamburger {
   float: right;
   top: 0;
   right: 0;
@@ -10,12 +10,21 @@ body {
   padding: 2em
 }
 
-#hamburger button{
+#hamburger button {
   font-size: 2em;
   border: none;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0);
   color: white;
+}
+
+#sideNavCross {
+  float: right;
+  right: 0;
+  font-size: 2em;
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 nav {
@@ -25,9 +34,10 @@ nav {
   top: 0;
   right: 0;
   height: 100vh;
+  text-align: center;
 }
 
-nav h1{
+nav h1 {
   color: white;
   font-family: "Vincentia";
   font-size: 2em;
@@ -53,7 +63,7 @@ nav ul li a {
 
 section {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   text-align: center;
 }
@@ -152,25 +162,36 @@ nav ul li a:hover {
 }
 
 #services {
+  color: white;
   background-image: url("../images/services-bg.jpg");
   background-size: cover;
 }
 
 #projects {
   text-align: center;
-  min-height: 90vh;
+  min-height: 100vh;
   display: inline-block;
   overflow: visible;
 }
 
 #contact {
+  color: white;
   background-image: url("../images/contact-bg.jpg");
   background-size: cover;
 }
 
+<<<<<<< HEAD
 footer  {
   background-color: rgb(39, 41, 43);
+=======
+footer {
+  color: white;
+  padding: 2em;
+  background-color: rgb(39, 40, 43);
+>>>>>>> 20d58c4700aebea4f3ddc7f276e254f65d902f87
 }
+
+
 /*Mobile Modifiers*/
 
 @media screen and (max-width: 1000px) {}
