@@ -151,7 +151,6 @@ nav ul li a:hover {
   font-size: 4em;
 }
 
-<<<<<<< HEAD
 #services {
   background-image: url("../images/services-bg.jpg");
   background-size: cover;
@@ -168,10 +167,8 @@ nav ul li a:hover {
   background-image: url("../images/contact-bg.jpg");
   background-size: cover;
 }
-=======
->>>>>>> ce9ea5e3851bd9bfba1ddceb1aad73a97fccf9f0
 
-Footer  {
+footer  {
   background-color: rgb(39, 40, 43);
 }
 /*Mobile Modifiers*/
