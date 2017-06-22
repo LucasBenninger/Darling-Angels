@@ -104,6 +104,8 @@ nav ul li a:hover {
 
 #name{
   padding-top: 4em;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 #home h1 {
@@ -112,6 +114,8 @@ nav ul li a:hover {
 }
 
 .title {
+  margin-top: 0;
+  padding-top: 0;
   font-family: "Vincentia";
   font-size: 4em;
 }
