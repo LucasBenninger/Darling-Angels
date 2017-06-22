@@ -1,7 +1,16 @@
-function init(){
-	$("#sidenav").css({"display":"none"});
+function showSideNav() {
+  $("#sidenav").css({
+    "display": ""
+  });
 }
 
-$(document).ready(function(){
-	init();
+function init() {
+  $("#sidenav").css({
+    "display": "none"
+  });
+  $("#hamburger").on("click", showSideNav);
+}
+
+$(document).ready(function() {
+  init();
 });
