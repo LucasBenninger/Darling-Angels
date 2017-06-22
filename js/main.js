@@ -4,11 +4,16 @@ function showSideNav() {
   });
 }
 
-function init() {
-  $("#sidenav").css({
+function hideSideNav(){
+	$("#sidenav").css({
     "display": "none"
   });
+}
+
+function init() {
+  hideSideNav();
   $("#hamburger").on("click", showSideNav);
+	$("#sideNavCross").on("click", hideSideNav);
 }
 
 $(document).ready(function() {
