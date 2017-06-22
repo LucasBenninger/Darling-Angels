@@ -28,6 +28,7 @@ section {
   margin: 0;
   height: 100vh;
   overflow: hidden;
+  text-align: center;
 }
 
 section h1 {
@@ -100,9 +101,12 @@ nav ul li a:hover {
   color: white;
   font-size: 2em;
   font-family: "montserrat-bold";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
 }
 
 #name{
+  text-transform: uppercase;
   padding-top: 4em;
   padding-bottom: 0;
   margin-bottom: 0;
