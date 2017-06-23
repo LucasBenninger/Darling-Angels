@@ -66,6 +66,7 @@ section {
   min-height: 100vh;
   overflow: hidden;
   text-align: center;
+  padding-top: 2em;
 }
 
 section h1 {
@@ -77,6 +78,7 @@ nav ul li a:hover {
 }
 
 .uppercase{
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -127,8 +129,24 @@ nav ul li a:hover {
   background-image: url("../images/contact-bg.jpg");
   background-size: cover;
 }
+.contactsColumns{
+  column-count: 2;
+}
+
+.contactsColumns div{
+  display: block;
+}
+
+.footerColumns{
+  column-count: 3;
+}
+
+.footerColumns div{
+  display: block;
+}
 
 footer  {
+  margin-top: 0;
   color: white;
   padding: 2em;
   background-color: rgb(39, 40, 43);
