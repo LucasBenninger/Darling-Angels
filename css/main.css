@@ -30,6 +30,15 @@ footer {
   background-color: rgb(39, 40, 43);
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited{
+  color: inherit;
+}
+
 
 /*
   Hamburger Menu Button
@@ -132,7 +141,9 @@ nav ul li a:hover {
   font-size: 4em;
 }
 
-#about {}
+#about {
+  font-weight: bold;
+}
 
 #about p {
   font-size: 2em;
