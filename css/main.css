@@ -206,6 +206,11 @@ nav ul li a:hover {
   display: block;
 }
 
+.services_title {
+  display: block;
+  font-weight: bolder;
+}
+
 
 /*Mobile Modifiers*/
 
