@@ -1,8 +1,36 @@
+/*
+  General
+*/
+
 body {
   margin: 0;
   font-family: "librebaskerville-regular";
   text-rendering: optimizeLegibility;
 }
+
+section {
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 2em;
+}
+
+section h1 {
+  text-align: center;
+}
+
+footer {
+  margin-top: 0;
+  color: white;
+  padding: 2em;
+  background-color: rgb(39, 40, 43);
+}
+
+
+/*
+  Hamburger Menu Button
+*/
 
 #hamburger {
   float: right;
@@ -27,6 +55,11 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0);
 }
+
+
+/*
+Navigation Side Bar
+*/
 
 nav {
   overflow: hidden;
@@ -63,25 +96,8 @@ nav ul li a {
   text-decoration: none;
 }
 
-section {
-  margin: 0;
-  min-height: 100vh;
-  overflow: hidden;
-  text-align: center;
-  padding-top: 2em;
-}
-
-section h1 {
-  text-align: center;
-}
-
 nav ul li a:hover {
   background-color: rgb(14, 14, 14);
-}
-
-.uppercase {
-  margin: 0;
-  text-transform: uppercase;
 }
 
 #home {
@@ -138,6 +154,11 @@ nav ul li a:hover {
   background-size: cover;
 }
 
+
+/*
+  Classes
+*/
+
 .contactsColumns {
   column-count: 2;
   column-span: none;
@@ -168,11 +189,9 @@ nav ul li a:hover {
   color: rgb(7, 97, 125);
 }
 
-footer {
-  margin-top: 0;
-  color: white;
-  padding: 2em;
-  background-color: rgb(39, 40, 43);
+.uppercase {
+  margin: 0;
+  text-transform: uppercase;
 }
 
 
