@@ -76,60 +76,8 @@ nav ul li a:hover {
   background-color: rgb(14, 14, 14);
 }
 
-.projectList {
-  margin: 0;
-  list-style: none;
-  padding-left: 0;
-}
-
-.projectList li {
-  display: inline-block;
-  border: thin black;
-}
-
-.projectList li a {
-  display: block;
-  padding: 6em;
-  width: 12em;
-  height: 6em;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 1.25em;
-  background-color: rgb(28, 28, 28);
-  overflow: hidden;
-  text-align: center;
-}
-
-.projectList li a:hover {
-  background-color: rgb(14, 14, 14);
-}
-
-.projectList li a span {
-  padding-top: .5em;
-  display: block;
-  font-weight: normal;
-  font-size: 0.75em;
-}
-
-.center {
-  text-align: center;
-}
-
-.nav_dropdown {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
-
-.nav_dropdown a {
-  display: block;
-  text-align: left;
-  text-decoration: none;
-}
-
-.dropdown:hover .nav_dropdown {
-  display: block;
+.uppercase{
+  text-transform: uppercase;
 }
 
 #home {
@@ -143,7 +91,6 @@ nav ul li a:hover {
 }
 
 #name {
-  text-transform: uppercase;
   padding-top: 6em;
   padding-bottom: 0;
   margin-bottom: 0;
