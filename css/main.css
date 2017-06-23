@@ -42,6 +42,13 @@ hr {
   width: 50%;
 }
 
+input:not([type=submit]) {
+}
+
+input[type=submit] {
+  background-color: rgb(248, 158, 15);
+}
+
 
 /*
   Hamburger Menu Button
@@ -181,6 +188,8 @@ nav ul li a:hover {
 */
 
 .contactsColumns {
+  margin-left: 8em;
+  margin-right: 8em;
   column-count: 2;
   column-span: none;
 }
@@ -225,6 +234,15 @@ nav ul li a:hover {
   font-weight: bolder;
 }
 
+.formInput {
+  color: black;
+  margin: 1em;
+  width: 50%;
+  margin: 1em;
+  border: none;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.6);
+}
 
 /*Mobile Modifiers*/
 
