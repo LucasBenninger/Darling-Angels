@@ -10,3 +10,9 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "librebaskerville-regular";
+  src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
