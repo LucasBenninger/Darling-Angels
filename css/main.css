@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "librebaskerville-regular";
+  text-rendering: optimizeLegibility;
 }
 
 #hamburger {
@@ -112,6 +113,12 @@ nav ul li a:hover {
   font-size: 4em;
 }
 
+#about {}
+
+#about p {
+  font-size: 2em;
+}
+
 #services {
   color: white;
   background-image: url("../images/services-bg.jpg");
@@ -155,6 +162,10 @@ nav ul li a:hover {
   break-inside: avoid-column;
   display: table;
   display: block;
+}
+
+.blueText {
+  color: rgb(7, 97, 125);
 }
 
 footer {
