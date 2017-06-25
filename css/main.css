@@ -42,8 +42,7 @@ hr {
   width: 50%;
 }
 
-input:not([type=submit]) {
-}
+input:not([type=submit]) {}
 
 input[type=submit] {
   background-color: rgb(248, 158, 15);
@@ -122,66 +121,6 @@ nav ul li a:hover {
   background-color: rgb(14, 14, 14);
 }
 
-#home {
-  background-image: url("../images/hero-bg.jpg");
-  background-size: cover;
-  color: white;
-  font-size: 2em;
-  font-family: "montserrat-bold";
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-}
-
-#name {
-  padding-top: 6em;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-size: 1em;
-}
-
-#home h1 {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-#title {
-  margin-top: 0;
-  padding-top: 0;
-  font-family: "Vincentia";
-  font-size: 4em;
-}
-
-#about {
-  font-weight: bold;
-}
-
-#about p {
-  font-size: 2em;
-}
-
-#services {
-  color: white;
-  background-image: url("../images/services-bg.jpg");
-  background-size: cover;
-}
-
-#services ul {
-  list-style: none;
-}
-
-#projects {
-  text-align: center;
-  min-height: 100vh;
-  display: inline-block;
-  overflow: visible;
-}
-
-#contact {
-  color: white;
-  background-image: url("../images/contact-bg.jpg");
-  background-size: cover;
-}
-
 
 /*
   Classes
@@ -242,6 +181,70 @@ nav ul li a:hover {
   border: none;
   padding: 2em;
   background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*
+  IDs
+*/
+
+#home {
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 2em;
+  font-family: "montserrat-bold";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+#name {
+  padding-top: 6em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+#home h1 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#title {
+  margin-top: 0;
+  padding-top: 0;
+  font-family: "Vincentia";
+  font-size: 4em;
+}
+
+#about {
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 2em;
+}
+
+#services {
+  color: white;
+  background-image: url("../images/services-bg.jpg");
+  background-size: cover;
+}
+
+#services ul {
+  list-style: none;
+}
+
+#projects {
+  text-align: center;
+  min-height: 100vh;
+  display: inline-block;
+  overflow: visible;
+}
+
+#contact {
+  color: white;
+  background-image: url("../images/contact-bg.jpg");
+  background-size: cover;
 }
 
 /*Mobile Modifiers*/
