@@ -236,6 +236,10 @@ nav ul li a:hover {
   list-style: none;
 }
 
+#services ul li{
+  margin: 2em;
+}
+
 #projects {
   text-align: center;
   min-height: 100vh;
