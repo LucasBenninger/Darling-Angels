@@ -24,9 +24,11 @@ section h1 {
 }
 
 footer {
+  text-align: center;
   margin-top: 0;
   color: white;
   padding: 2em;
+  font-size: .8em;
   background-color: rgb(39, 40, 43);
 }
 
