@@ -185,6 +185,10 @@ nav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.hrFooter {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
 /*
   IDs
 */
@@ -234,6 +238,10 @@ nav ul li a:hover {
 
 #services ul {
   list-style: none;
+}
+
+#services ul li{
+  margin: 2em;
 }
 
 #projects {
