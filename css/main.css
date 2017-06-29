@@ -173,6 +173,8 @@ nav ul li a:hover {
 .services_title {
   display: block;
   font-weight: bolder;
+  color: white;
+  padding: 1em;
 }
 
 .formInput {
@@ -231,7 +233,7 @@ nav ul li a:hover {
 }
 
 #services {
-  color: white;
+  color: rgb(130, 130, 130);
   background-image: url("../images/services-bg.jpg");
   background-size: cover;
 }
