@@ -21,6 +21,8 @@ section {
 
 section h1 {
   text-align: center;
+  color: white;
+  font-size: 3em;
 }
 
 footer {
@@ -160,6 +162,23 @@ nav ul li a:hover {
   color: rgb(7, 97, 125);
 }
 
+.aboutHeader {
+  color: rgb(7, 97, 125);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.showcaseHeader {
+  color: rgb(128, 126, 126);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.contactHeader {
+  color: rgb(128, 126, 126);
+  margin: 0;
+  text-transform: uppercase;
+}
 .uppercase {
   margin: 0;
   text-transform: uppercase;
@@ -168,6 +187,8 @@ nav ul li a:hover {
 .icon {
   color: rgb(249, 168, 40);
   display: block;
+  font-size: .5em;
+
 }
 
 .services_title {
@@ -176,6 +197,7 @@ nav ul li a:hover {
   color: white;
   padding: 1em;
 }
+
 
 .formInput {
   color: black;
@@ -251,6 +273,13 @@ nav ul li a:hover {
   min-height: 100vh;
   display: inline-block;
   overflow: visible;
+}
+
+#showcase {
+      background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(29, 29, 29) 50%, white 25%, white);
+	    background-size: cover;
+    	background-repeat: no-repeat;
+      color: white;
 }
 
 #contact {
