@@ -130,18 +130,19 @@ nav ul li a:hover {
   Classes
 */
 
-.contactsColumns {
+.contactColumns {
   margin-left: 8em;
   margin-right: 8em;
   column-count: 2;
   column-span: none;
 }
 
-.contactsColumns div {
+.contactColumns div {
   page-break-inside: avoid;
   break-inside: avoid-column;
   display: table;
   display: block;
+  overflow: hidden;
 }
 
 .footerColumns {
