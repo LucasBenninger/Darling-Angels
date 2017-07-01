@@ -137,7 +137,7 @@ nav ul li a:hover {
   column-span: none;
 }
 
-.contactColumns div {
+.columns{
   page-break-inside: avoid;
   break-inside: avoid-column;
   display: table;
@@ -150,13 +150,6 @@ nav ul li a:hover {
   margin-right: 8em;
   column-count: 3;
   column-span: none;
-}
-
-.footerColumns div {
-  page-break-inside: avoid;
-  break-inside: avoid-column;
-  display: table;
-  display: block;
 }
 
 .blueText {
@@ -286,6 +279,21 @@ nav ul li a:hover {
   color: white;
   background-image: url("../images/contact-bg.jpg");
   background-size: cover;
+}
+
+#services ul{
+  margin-left: 8em;
+  margin-right: 8em;
+  column-count: 2;
+  column-span: none;
+}
+
+#services ul div{
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+  display: table;
+  display: block;
+  overflow: hidden;
 }
 
 
