@@ -130,14 +130,13 @@ nav ul li a:hover {
   Classes
 */
 
-.contactColumns {
+.columns {
   margin-left: 8em;
   margin-right: 8em;
-  column-count: 2;
   column-span: none;
 }
 
-.columns{
+.column{
   page-break-inside: avoid;
   break-inside: avoid-column;
   display: table;
@@ -145,11 +144,12 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
+.contactColumns{
+  column-count: 2;
+}
+
 .footerColumns {
-  margin-left: 8em;
-  margin-right: 8em;
   column-count: 3;
-  column-span: none;
 }
 
 .blueText {
