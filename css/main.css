@@ -207,6 +207,7 @@ nav ul li a:hover {
 
 #home {
   background-image: url("../images/hero-bg.jpg");
+  background-attachment : fixed;
   background-size: cover;
   color: white;
   font-size: 2em;

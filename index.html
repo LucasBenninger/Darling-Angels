@@ -10,13 +10,22 @@
 
   <!-- Javascript -->
   <script src="js/libs/pace.min.js" charset="utf-8"></script>
-  <!-- <script src="js/libs/modernizr.js" charset="utf-8"></script> -->
   <script src="js/libs/jquery-3.2.1.min.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
+  <script src="js/gallery.js" charset="utf-8"></script>
+  <script src="js/libs/galleria/galleria-1.5.7.min.js" charset="utf-8"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/pace/pace.css">
+
+  <style>
+    .galleria {
+      max-width: 700px;
+      height: 400px;
+      background: #000;
+    }
+  </style>
 </head>
 
 <body>
@@ -66,6 +75,20 @@
   <section id="showcase">
     <h3 class="sectionHeader">Showcase</h3>
     <h1>See my featured projects</h1>
+    <div id="galleryViewer">
+
+    </div>
+    <div class="galleria">
+      <img src="images/portfolio/adele/DSC_1898.jpg">
+      <img src="images/portfolio/adele/DSC_1909.jpg">
+      <img src="images/portfolio/adele/DSC_1928.jpg">
+      <script>
+        (function() {
+          Galleria.loadTheme('js/libs/galleria/themes/classic/galleria.classic.min.js');
+          Galleria.run('.galleria');
+        }());
+      </script>
+    </div>
   </section>
   <section id="contact">
     <h3 class="sectionHeader">Contact</h3>
@@ -73,13 +96,13 @@
     <hr>
     <div class="columns contactColumns">
       <div class="column">
-          <form class="" action="index.html" method="post">
-            <input class="formInput" type="text" name="name" value="" placeholder="Name" id="formName"><br>
-            <input class="formInput" type="email" name="email" value="" placeholder="Email">
-            <input class="formInput" type="text" name="subject" value="" placeholder="Subject"><br>
-            <textarea class="formInput" name="message" rows="8" cols="80" placeholder="Message"></textarea><br>
-            <input class="formInput" type="submit" name="submit" value="Submit">
-          </form>
+        <form class="" action="index.html" method="post">
+          <input class="formInput" type="text" name="name" value="" placeholder="Name" id="formName"><br>
+          <input class="formInput" type="email" name="email" value="" placeholder="Email">
+          <input class="formInput" type="text" name="subject" value="" placeholder="Subject"><br>
+          <textarea class="formInput" name="message" rows="8" cols="80" placeholder="Message"></textarea><br>
+          <input class="formInput" type="submit" name="submit" value="Submit">
+        </form>
       </div>
       <div class="column" id="contactInfoSide">
         <p>Contact Information</p>
