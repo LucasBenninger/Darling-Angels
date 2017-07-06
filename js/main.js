@@ -9,10 +9,8 @@ function sideNavClickListener() {
 
 function showSideNav() {
   $("#sidenav").css({
-    "display": ""
+    "display": "block"
   });
-
-  sideNavClickListener();
 }
 
 function hideSideNav() {
@@ -22,7 +20,8 @@ function hideSideNav() {
 }
 
 function init() {
-  hideSideNav();
+  sideNavClickListener();
+  albumViewClickListener();
   $("#hamburger").on("click", showSideNav);
   $("#sideNavCross").on("click", hideSideNav);
 }

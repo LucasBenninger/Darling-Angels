@@ -95,6 +95,7 @@ nav {
   height: 100vh;
   text-align: center;
   width: 18em;
+  display: none;
 }
 
 nav h1 {
@@ -295,6 +296,13 @@ nav ul li a:hover {
   display: table;
   display: block;
   overflow: hidden;
+}
+
+#albumView{
+  /*display: none;*/
+  text-align: center;
+  margin: 0 auto;
+  z-index: 2;
 }
 
 
