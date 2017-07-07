@@ -298,11 +298,69 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
+#albumViewerBackground{
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin: 0;
+  background-color: rgba(0, 0, 0, .25);
+  z-index: 1;
+}
+
 #albumView{
-  /*display: none;*/
-  text-align: center;
-  margin: 0 auto;
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding: 16px;
   z-index: 2;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+/*
+  Gallery
+*/
+
+#showcase ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+#showcase ul li{
+  display: inline-block;
+  border: thin black;
+}
+
+#showcase ul li{
+  padding: 6em;
+  width: 12em;
+  height: 6em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+  background-color: rgb(28, 28, 28);
+  overflow: hidden;
+  text-align: center;
+  background-size: cover;
+}
+
+#showcase ul li span{
+  background-color: rgba(0, 0, 0, .25);
+  padding: .5em;
+}
+
+#adeleAlbum{
+  background-image: url("../images/portfolio/gallery/DSC_2073.jpg");
+}
+
+#kaitlyAndDerekAlbum{
+  background-image: url("../images/portfolio/kaitlyn and derek - new edit/untitled-1.jpg");
 }
 
 

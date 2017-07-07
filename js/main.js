@@ -24,6 +24,8 @@ function init() {
   albumViewClickListener();
   $("#hamburger").on("click", showSideNav);
   $("#sideNavCross").on("click", hideSideNav);
+
+  galleryInit();
 }
 
 $(document).ready(function() {
