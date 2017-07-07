@@ -137,7 +137,7 @@ nav ul li a:hover {
   column-span: none;
 }
 
-.column{
+.column {
   page-break-inside: avoid;
   break-inside: avoid-column;
   display: table;
@@ -145,7 +145,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.contactColumns{
+.contactColumns {
   column-count: 2;
 }
 
@@ -187,6 +187,11 @@ nav ul li a:hover {
   padding: 1em;
 }
 
+.contactInfoTitle {
+  display: block;
+  margin: 1em;
+}
+
 .formInput {
   color: black;
   margin: 1em;
@@ -201,6 +206,10 @@ nav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+.smallCase {
+  text-transform: capitalize;
+}
+
 
 /*
   IDs
@@ -208,7 +217,7 @@ nav ul li a:hover {
 
 #home {
   background-image: url("../images/hero-bg.jpg");
-  background-attachment : fixed;
+  background-attachment: fixed;
   background-size: cover;
   color: white;
   font-size: 2em;
@@ -283,14 +292,14 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-#services ul{
+#services ul {
   margin-left: 8em;
   margin-right: 8em;
   column-count: 2;
   column-span: none;
 }
 
-#services ul div{
+#services ul div {
   page-break-inside: avoid;
   break-inside: avoid-column;
   display: table;
@@ -298,7 +307,11 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-#albumViewerBackground{
+#contactInfoSide ul {
+  list-style: none;
+}
+
+#albumViewerBackground {
   display: none;
   width: 100vw;
   height: 100vh;
@@ -308,7 +321,7 @@ nav ul li a:hover {
   z-index: 1;
 }
 
-#albumView{
+#albumView {
   display: none;
   position: fixed;
   top: 25%;
@@ -321,22 +334,23 @@ nav ul li a:hover {
   margin: 0 auto;
 }
 
+
 /*
   Gallery
 */
 
-#showcase ul{
+#showcase ul {
   margin: 0;
   list-style: none;
   padding-left: 0;
 }
 
-#showcase ul li{
+#showcase ul li {
   display: inline-block;
   border: thin black;
 }
 
-#showcase ul li{
+#showcase ul li {
   padding: 6em;
   width: 12em;
   height: 6em;
@@ -350,30 +364,31 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-#showcase ul li span{
+#showcase ul li span {
   background-color: rgba(0, 0, 0, .25);
   padding: .5em;
 }
 
-#adeleAlbum{
+#adeleAlbum {
   background-image: url("../images/portfolio/gallery/DSC_2073.jpg");
 }
 
-#kaitlyAndDerekAlbum{
+#kaitlyAndDerekAlbum {
   background-image: url("../images/portfolio/kaitlyn and derek - new edit/untitled-1.jpg");
 }
 
-#laylaAlbum{
+#laylaAlbum {
   background-image: url("../images/portfolio/layla 2016 new edit/untitled-6.jpg");
 }
 
-#loisAndAviAlbum{
+#loisAndAviAlbum {
   background-image: url("../images/portfolio/lois and avi new edit/untitled-1.jpg");
 }
 
-#mackenzieAndLexiAlbum{
+#mackenzieAndLexiAlbum {
   background-image: url("../images/portfolio/mackenzie and lexi/DSC_1196.jpg");
 }
+
 
 /*Mobile Modifiers*/
 
