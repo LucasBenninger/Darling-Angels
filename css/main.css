@@ -145,7 +145,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-@media screen and (min-width: 75em) and (max-resolution: 1dppx){
+@media screen and (min-width: 75em) and (max-resolution: 1dppx) {
   .contactColumns {
     column-count: 2;
   }
@@ -234,9 +234,11 @@ nav ul li a:hover {
   font-size: 1em;
 }
 
-#home h1 {
-  margin-left: 30%;
-  margin-right: 30%;
+@media screen and (min-width: 75em) and (max-resolution: 1dppx) {
+  #home h1 {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
 }
 
 #title {
@@ -293,7 +295,7 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-@media screen and (min-width: 75em) and (max-resolution: 1dppx){
+@media screen and (min-width: 75em) and (max-resolution: 1dppx) {
   #services ul {
     margin-left: 8em;
     margin-right: 8em;
@@ -309,8 +311,15 @@ nav ul li a:hover {
   }
 }
 
+#services ul{
+  margin: 0;
+  padding: 0;
+}
+
 #contactInfoSide ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #albumViewerBackground {
