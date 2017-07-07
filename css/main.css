@@ -145,6 +145,11 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
+.contactColumns{
+  margin: 2em;
+  text-align: center;
+}
+
 @media screen and (min-width: 75em) and (max-resolution: 1dppx) {
   .contactColumns {
     column-count: 2;
