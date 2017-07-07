@@ -145,7 +145,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
   .contactColumns {
     column-count: 2;
   }
@@ -293,7 +293,7 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
   #services ul {
     margin-left: 8em;
     margin-right: 8em;
