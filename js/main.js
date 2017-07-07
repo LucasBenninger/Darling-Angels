@@ -1,7 +1,7 @@
 function sideNavClickListener() {
   var listener = $(document).mouseup(function(e) {
     var container = $("#sidenav");
-    if (!container.is(e.target)) {
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
       hideSideNav();
     }
   });
