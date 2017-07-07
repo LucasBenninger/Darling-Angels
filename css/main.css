@@ -145,12 +145,13 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.contactColumns {
-  column-count: 2;
-}
-
-.footerColumns {
-  column-count: 3;
+@media only screen and (min-width: 768px) {
+  .contactColumns {
+    column-count: 2;
+  }
+  .footerColumns {
+    column-count: 3;
+  }
 }
 
 .blueText {
@@ -292,19 +293,20 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-#services ul {
-  margin-left: 8em;
-  margin-right: 8em;
-  column-count: 2;
-  column-span: none;
-}
-
-#services ul div {
-  page-break-inside: avoid;
-  break-inside: avoid-column;
-  display: table;
-  display: block;
-  overflow: hidden;
+@media only screen and (min-width: 768px) {
+  #services ul {
+    margin-left: 8em;
+    margin-right: 8em;
+    column-count: 2;
+    column-span: none;
+  }
+  #services ul div {
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    display: table;
+    display: block;
+    overflow: hidden;
+  }
 }
 
 #contactInfoSide ul {
