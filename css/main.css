@@ -267,7 +267,13 @@ nav ul li a:hover {
   margin-top: 0;
   padding-top: 0;
   font-family: "Vincentia";
-  font-size: 4em;
+  font-size: 3em;
+}
+
+@media screen and (min-width: 75em) and (max-resolution: 1dppx) {
+  #title{
+    font-size: 4em;
+  }
 }
 
 #about {
