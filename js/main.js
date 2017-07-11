@@ -16,7 +16,7 @@ function showSideNav() {
 function hideSideNav() {
   $("#sidenav").css({
     "display": "none"
-  });
+  });  
 }
 
 function init() {
