@@ -139,6 +139,22 @@ nav ul li a:hover {
   Classes
 */
 
+.galleria {
+  background: rgb(28, 28, 28);
+  max-width: 90vw;
+  height: 90vh;
+}
+
+.galleria-stage {
+    height: 450px;
+    position: absolute;
+    top: 10px;
+    bottom: 60px;
+    left: 10px;
+    right: 10px;
+    overflow: hidden;
+}
+
 .columns {
   margin-left: 8em;
   margin-right: 8em;
