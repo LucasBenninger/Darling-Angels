@@ -141,6 +141,8 @@ nav ul li a:hover {
 
 .galleria {
   background: rgb(28, 28, 28);
+  max-width: 90vw;
+  height: 90vh;
 }
 
 .columns {
