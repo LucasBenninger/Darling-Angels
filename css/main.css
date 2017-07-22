@@ -141,17 +141,14 @@ nav ul li a:hover {
 
 .galleria {
   background: rgb(28, 28, 28);
-  max-width: 90vw;
-  height: 90vh;
+  max-width: 100vw;
+  height: 100vh;
 }
 
 .galleria-stage {
-    height: 450px;
+    height: 90vh;
+    width: 90vh;
     position: absolute;
-    top: 10px;
-    bottom: 60px;
-    left: 10px;
-    right: 10px;
     overflow: hidden;
 }
 
