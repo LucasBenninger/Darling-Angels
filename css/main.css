@@ -139,12 +139,6 @@ nav ul li a:hover {
   Classes
 */
 
-.galleria {
-  background: rgb(28, 28, 28);
-  max-width: 90vw;
-  height: 90vh;
-}
-
 .columns {
   margin-left: 8em;
   margin-right: 8em;
